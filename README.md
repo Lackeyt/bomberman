@@ -10,7 +10,7 @@
 
 ## Description
 
-~work in progress~
+~work in progress~~
 
 ## Setup/Installation Requirements
 
