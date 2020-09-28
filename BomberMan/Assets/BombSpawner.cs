@@ -1,19 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class BombSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  public Tilemap tilemap;
 
-    // Update is called once per frame
-    void Update()
+  public GameObject bombPrefab;
+
+  // Update is called once per frame
+  void Update()
+  {
+    //centers bombs in the middle of the clicked cell
+    if(Input.GetMouseButtonDown(0)) //on left mouse button click
     {
-        
+      Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition); //mouse position
+      Vector3Int cell = tilemap.WorldToCell(worldPos);                        //cell on tilemap
+      Vector3 cellCenterPos = tilemap.GetCellCenterWorld(cell);               //center of cell
+
+      Instantiate(bombPrefab, cellCenterPos, Quaternion.identity);
     }
+  }
 }
