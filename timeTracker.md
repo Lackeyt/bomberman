@@ -23,6 +23,9 @@
 * 4:00 - 5:00pm
   implement bomb object and c# logic for centered tile placement on mouse click
 
+### 9/27/2020
+
+* The bomb object research and implementation may have been on the 27th instead of Friday, I'm having trouble remembering the exact timeline.
 
 ### 9/28/2020
 
