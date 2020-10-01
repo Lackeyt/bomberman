@@ -16,5 +16,7 @@ public class Bomb : MonoBehaviour
       FindObjectOfType<MapDestruct>().Explode(transform.position);
       Destroy(gameObject);
     }
+
+    Destroy(this, 2.1f);
   }
 }
