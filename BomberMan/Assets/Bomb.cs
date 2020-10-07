@@ -9,7 +9,7 @@ public class Bomb : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    countdown -= Time.deltaTime;  //decriment time
+    countdown -= Time.deltaTime;  //decriment timer
 
     if(countdown <= 0f)   //if time = 0, bomb explodes
     {

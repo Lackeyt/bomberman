@@ -9,6 +9,10 @@ public class MapDestruct : MonoBehaviour
 
   public Tile WoodPlank;
   public Tile RockWall;
+  public Tile BorderBottom;
+  public Tile BorderTop;
+  public Tile BorderLeft;
+  public Tile BorderRight;
 
   public GameObject explosionPrefab;
 
@@ -43,7 +47,7 @@ public class MapDestruct : MonoBehaviour
   {
     Tile tile = tilemap.GetTile<Tile>(cell);
 
-    if (tile == RockWall) //do not explode walls
+    if (tile == RockWall || tile == BorderTop || tile == BorderBottom || tile == BorderLeft || tile == BorderRight) //do not explode walls
     {
       return false;
     }
