@@ -37,3 +37,87 @@
 
 * 7:30 - 8:00pm
   bugfix bombs sometimes not disappearing after countdown reached 0.
+
+
+### 10/2/2020
+
+* 8:00am - 10:00am
+  research player movement
+
+* 11:00am - 12:00pm
+  implement player object and assets for movement
+
+* 1:00pm - 2:00pm
+  research movement animations
+
+* 2:00pm - 3:00pm
+  implement movement animations
+
+* 3:00pm - 4:00pm
+  bugfix animation and animation framerate issues
+
+* 4:00pm - 5:00pm
+  regression test functionality and bugfix bomb interactions (bombs sometimes not destroying after explosions)
+
+### 10/3/2020
+
+* 10:00am - 1:00pm
+  research movement controls and animator interface
+
+### 10/4/2020
+
+* 10:00am - 12:00pm
+  research blend trees for flexible movement (using 4 inputs allow for diagonal movement)
+
+### 10/5/2020
+
+* 8:00am - 9:00am
+  review weekend research resources
+
+* 9:00am - 10:00am
+  update tileset to match character sprite artwork
+
+* 10:00am - 12:00
+  bugfix bomb interactions with new sprites, update scripts for map borders
+
+* 1:00pm - 2:00pm 
+  script player movement
+
+* 2:00pm - 3:00pm
+  add animator to player object / troubleshoot errors
+
+* 3:00pm - 4:00pm
+  add blend trees for player inputs and movement animations
+
+* 4:00pm - 5:00pm 
+  regression test functionality, bugfix animations 
+
+### 10/6/2020
+
+* 8:00am - 9:00am
+  bugfixes
+
+* 9:00am - 10:00am
+  research player object targetting in c#/unity
+
+* 10:00am - 11:00am
+  update bomb spawner to target player (spawn bombs on player object instead of cursor)
+
+* 11:00am - 12:00am 
+  research GIT / Unity issues
+
+* 1:00pm - 2:00pm 
+  explore camera movement / multi stage levels
+
+* 2:00pm - 3:00pm 
+  implement multi staged level
+
+* 3:00pm - 4:00pm
+  revert changes, too many bugs / issues and not MVP functionality (avoiding potential rabbit hole)
+
+* 4:00pm - 5:00pm 
+  regression test functionality, implement GIT fixes
+
+* 5:00pm - 7:00pm
+  update time tracker for all changes not captured in git, bug fixes
+
