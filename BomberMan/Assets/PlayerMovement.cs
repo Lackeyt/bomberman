@@ -20,6 +20,14 @@ public class PlayerMovement : MonoBehaviour
       animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+      if(other.gameObject.tag == "Coins")
+      {
+        Destroy(other.gameObject);
+      }
+    }
+
     void FixedUpdate()
     {
       Rb.MovePosition(Rb.position + movement * moveSpeed * Time.fixedDeltaTime);
