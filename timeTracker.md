@@ -121,3 +121,16 @@
 * 5:00pm - 7:00pm
   update time tracker for all changes not captured in git, bug fixes
 
+### 10/7/2020
+
+* 8:00am - 9:00am
+  add coins and animations
+
+* 11:00am - 12:00pm
+  adjust tile map for timer and score.
+  add text for timer and score.
+  add coin value counter script.
+  add countdown time script.
+
+
+
