@@ -23,5 +23,8 @@ public class TimeManager : MonoBehaviour
 
       countdownTime--;
     }
+
+    FindObjectOfType<GameManager>().GameOver();
+
   }
 }

@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
 {
   public static ScoreManager instance;
   public Text text;
-  int score;
+  public int score;
 
   void Start()
   {
@@ -21,6 +21,7 @@ public class ScoreManager : MonoBehaviour
   {
     score += coinValue;
     text.text = score.ToString();
+    PlayerPrefs.SetInt("score", score);
   }
 
 }
