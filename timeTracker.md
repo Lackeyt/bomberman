@@ -132,5 +132,21 @@
   add coin value counter script.
   add countdown time script.
 
+* 1:00pm - 3:00pm
+  research scene tansitions and menu building
+
+* 3:00pm - 4:00pm
+  create start menu scene and add assets
+
+* 4:00pm - 5:00pm
+  create play button, color gradients, and associated scene transition
+
+* 5:00pm - 7:00pm
+  create game over screen
+  create score total
+  update score tracker to pass values to game over scene
+
+* 10:00pm - 11:00pm
+  add scene music
 
 
